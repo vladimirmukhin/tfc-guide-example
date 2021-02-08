@@ -17,3 +17,7 @@ variable "db_write_capacity" {
   type    = number
   default = 1
 }
+
+variable "env_code" {
+  type = string
+}
